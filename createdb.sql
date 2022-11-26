@@ -1,0 +1,10 @@
+CREATE TABLE `test` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`username` TEXT NOT NULL COLLATE 'latin1_swedish_ci',
+	`password` TEXT NOT NULL COLLATE 'latin1_swedish_ci',
+	`signup` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=0;
