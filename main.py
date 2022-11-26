@@ -14,6 +14,6 @@ root.geometry("600x350")
 def onExit():
     sys.exit()
 
-db = Database("sql7.freesqldatabase.com", "sql7580994", "3ny5KNafM5", "sql7580994")
+db = Database("<mysql host>", "<mysql username>", "<mysql password>", "<database name>")
 if __name__ == "__main__":
     loginWindow(root, db)
